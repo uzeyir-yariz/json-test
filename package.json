@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "json:server": "json-server --watch src/DB.json"
+  }
+}

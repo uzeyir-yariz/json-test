@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>json</title>
+</head>
+<body class="bg-black text-white">
+    <!-- <nav class="p-2 bg-slate-500 flex justify-center"><h1 class="text-2xl">kitap kayıt</h1></nav> -->
+
+    <main class="flex justify-center place-items-center h-screen">
+        <div class="flex justify-center ">
+            <form action="" class="grid grid-cols-2 bg-gray-700 p-4 rounded" id="kitap_form">
+                <label class="rounded-md bg-slate-900 w-40 p-1" for="kitap_adi">kitap adı :</label>
+                <input required class="rounded-md bg-slate-900 border border-white p-1" type="text" name="" id="kitap_adi" placeholder="kitap adını giriniz...">
+                
+                <label class="rounded-md bg-slate-900 w-40 p-1 mt-2" for="kitap_drop">kitap türü :</label>
+                <select class="rounded-md bg-slate-900 border border-white p-1 mt-2" name="" id="kitap_drop"><option selected disabled value="türü seçin">türü seçin</option><option value="roman">roman</option><option value="hikaye">hikaye</option><option value="masal">masal</option><option value="makale">makale</option><option value="şiir">şiir</option><option value="biyografi">biyografi</option></select>
+                <!-- <input required class="rounded-md bg-slate-900 border border-white p-1 mt-2" type="text" name="" id="" placeholder="kitap türü giriniz..."> -->
+                
+                <label class="rounded-md bg-slate-900 w-40 p-1 mt-2" for="kitap_sayfa">kitap sayfa sayısı :</label>
+                <input required class="rounded-md bg-slate-900 border border-white p-1 mt-2" type="number" name="" id="kitap_sayfa" placeholder="kitap sayfa sayısı giriniz...">
+                
+                <label class="rounded-md bg-slate-900 w-40 p-1 mt-2" for="kitap_yazar">kitap yazarı :</label>
+                <input required class="rounded-md bg-slate-900 border border-white p-1 mt-2" type="text" name="" id="kitap_yazar" placeholder="kitap yazarı giriniz...">
+                
+                <label class="rounded-md bg-slate-900 w-40 p-1 mt-2" for="kitap_yayin">kitap yayın evi :</label>
+                <input required class="rounded-md bg-slate-900 border border-white p-1 mt-2" type="text" name="" id="kitap_yayin" placeholder="kitap yayın evi giriniz...">
+                
+                <label class="rounded-md bg-slate-900 w-40 p-1 mt-2" for="kitap_basim">kitap basım :</label>
+                <input required class="rounded-md bg-slate-900 border border-white p-1 mt-2" type="text" name="" id="kitap_basim" placeholder="kitap basım giriniz...">
+
+                <input class="col-span-2 bg-gray-900 mt-3 rounded p-1" type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+
+
+
+    <!-- <main class="flex justify-around">
+        <div class="flex justify-center items-center h-screen">
+            <div class="bg-slate-900 flex justify-between w-1/4 p-4">
+                <div class="flex flex-col justify-center">
+                <label class="bg-slate-950 h-8 w-40 p-1" for="kitap_adi">kitap adı :</label>
+                <label class="bg-slate-950 h-8 w-40 p-1 mt-2" for="kitap_adi">kitap türü :</label>
+                <label class="bg-slate-950 h-8 w-40 p-1 mt-2" for="kitap_adi">kitap sayfa sayısı :</label>
+                <label class="bg-slate-950 h-8 w-40 p-1 mt-2" for="kitap_adi">kitap yazarı :</label>
+                <label class="bg-slate-950 h-8 w-40 p-1 mt-2" for="kitap_adi">kitap yayın evi :</label>
+                <label class="bg-slate-950 h-8 w-40 p-1 mt-2" for="kitap_adi">kitap basım :</label>
+              </div>
+              <form action="" class="flex flex-col justify-center relative">
+                <input class="bg-slate-950 border border-white h-8 p-1" type="text" name="" id="" placeholder="kitap adını giriniz...">
+                <input class="bg-slate-950 border border-white h-8 p-1 mt-2" type="text" name="" id="" placeholder="kitap türü giriniz...">
+                <input class="bg-slate-950 border border-white h-8 p-1 mt-2" type="text" name="" id="" placeholder="kitap sayfa sayısı giriniz...">
+                <input class="bg-slate-950 border border-white h-8 p-1 mt-2" type="text" name="" id="" placeholder="kitap yazarı giriniz...">
+                <input class="bg-slate-950 border border-white h-8 p-1 mt-2" type="text" name="" id="" placeholder="kitap yayın evi giriniz...">
+                <input class="bg-slate-950 border border-white h-8 p-1 mt-2" type="text" name="" id="" placeholder="kitap basım giriniz...">
+
+            </form>
+            <button type="submit" class="bg-gray-900 text-white py-2 px-4 mt-2">Kaydet</button>
+            </div>
+        </div>          
+    </main> -->
+
+</body>
+<script src="script.js"></script>
+</html>
