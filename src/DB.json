@@ -1,19 +1,22 @@
 {
-  "kitaplar": {
-    "kit_ad": "test",
-    "kit_drop": "şiir",
-    "kit_sayfa": "15",
-    "kit_yazari": "name tag",
-    "kit_yayin": "ateşler",
-    "kit_basim": "7. basım",
-    "id": 1,
-    
-    "kit_ad": "tw",
-    "kit_drop": "makale",
-    "kit_sayfa": "75",
-    "kit_yazari": "name tag",
-    "kit_yayin": "ateşler",
-    "kit_basim": "7. basım",
-    "id": 1
-  }
+  "kitaplar": [
+    {
+      "kit_ad": "test",
+      "kit_drop": "şiir",
+      "kit_sayfa": "15",
+      "kit_yazari": "name tag",
+      "kit_yayin": "ateşler",
+      "kit_basim": "7. basım",
+      "id": 1
+    },
+    {
+      "kit_ad": "tw",
+      "kit_drop": "makale",
+      "kit_sayfa": "75",
+      "kit_yazari": "name tag",
+      "kit_yayin": "ateşler",
+      "kit_basim": "7. basım",
+      "id": 1
+    }
+  ]
 }
